@@ -26,3 +26,7 @@ Testing out codespaces
 
 - Dotfiles persisted; restarted session by choosing "Codespaces: Disconnect". Going to close tab and delete codespace from GitHub UI now instead.
 
+### Trial 4 (https://github.com/senorflor/codespaces/commit/63e8116e088605ca643dc004e307435ae64743d1, deleted and recreated Codespace in GitHub UI)
+
+- Dotfiles now gone. Now I can be sure that...
+- Vanilla Codepsaces terminal in VS Code is not properly respecting keyboard shortcuts, e.g. arrow keys/Ctrl-P/Ctrl-N for history, Tab completion, Ctrl-A/Ctrl-E for history. May be a MacOS/browser issue, as Alt combos are inserting e.g. Greek characters as Option key combos do by default in MacOS. TODO: research whether you can set key combo preferences somewhere in the Chrome=>Codespaces=>VS Code Remote=>integrated terminal stack, as you would in Terminal and iTerm2 preferences, to give good localhost-like defaults for Mac users. TODO: also test vanilla behavior in a few Linuces and Windows.
