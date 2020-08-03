@@ -21,3 +21,8 @@ Testing out codespaces
     - .vs-liveshare-settings.json (1000ms SyncRpcTelemetryTresholdMs; BTW, is this key misspelled?)
     - .vscode-remote (as is set up in VS Code remote sessions from desktop; includes installed extensions, server, etc.)
     - .wget-hsts (probably from downloading the vscode remote stuff at startup time)
+
+### Trial 3 (https://github.com/senorflor/codespaces/commit/28f53331240e0a0a6dafccfd9c5c29f51f9d1af4, also renamed old dotfiles repo)
+
+- Dotfiles persisted; restarted session by choosing "Codespaces: Disconnect". Going to close tab and delete codespace from GitHub UI now instead.
+
